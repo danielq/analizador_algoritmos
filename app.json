@@ -1,0 +1,17 @@
+{
+  "name": "analizador-algoritmos",
+  "description": "Analizador de complejidad temporal de algoritmos con bot de Telegram",
+  "repository": "https://github.com/tu-usuario/analizador_algoritmos",
+  "keywords": ["python", "algorithms", "complexity", "telegram-bot"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Token del bot de Telegram",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+} 

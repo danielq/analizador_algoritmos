@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+pygments
+colorama
+rich
+click
+tensorflow
+scikit-learn
+python-telegram-bot>=20.0 

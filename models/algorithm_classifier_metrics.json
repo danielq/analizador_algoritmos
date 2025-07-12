@@ -1,0 +1,24 @@
+{
+  "final_accuracy": 0.28125,
+  "final_val_accuracy": 0.30000001192092896,
+  "final_loss": 1.8070577383041382,
+  "final_val_loss": 1.788681983947754,
+  "epochs_trained": 99,
+  "feature_importance": {
+    "num_loops": 0.11162044107913971,
+    "num_nested_loops": 0.11734642088413239,
+    "max_nesting_level": 0.1090654581785202,
+    "num_recursive_calls": 0.10238552838563919,
+    "num_conditionals": 0.1014602929353714,
+    "num_assignments": 0.10524649918079376,
+    "num_function_calls": 0.10126209259033203,
+    "code_length": 0.10266915708780289,
+    "num_variables": 0.1256163865327835,
+    "has_sorting": 0.11198239028453827,
+    "has_search": 0.1221451684832573,
+    "has_math_operations": 0.11211942881345749,
+    "complexity_keywords": 0.110476553440094,
+    "loop_patterns": 0.10206509381532669,
+    "recursion_patterns": 0.11264394968748093
+  }
+}

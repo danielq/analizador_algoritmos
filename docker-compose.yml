@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  analizador-algoritmos:
+    build: .
+    container_name: analizador-algoritmos-bot
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    restart: unless-stopped
+    volumes:
+      - ./models:/app/models
+    ports:
+      - "8000:8000" 
